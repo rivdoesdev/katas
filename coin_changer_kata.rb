@@ -10,6 +10,9 @@ def changer(change)
     elsif change < 10 && change >= 5
       change_arr << 5
       change -= 5
+    elsif change < 5 && change >= 1
+      change_arr << 1
+      change -= 1
     else
       return change_arr
     end
