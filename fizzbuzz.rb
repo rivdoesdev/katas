@@ -9,3 +9,7 @@ def fizzbuzz(n)
     puts n
   end
 end
+
+(1..100).each do |n|
+  puts fizzbuzz(n)
+end
