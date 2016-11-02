@@ -1,9 +1,7 @@
-def multiples(n)
-  if (n % 3).zero? || (n % 5).zero?
-    puts n
-  end
+total = 0
+
+(0..1000).each do |n|
+  total += n if (n % 3 == 0 || n % 5 == 0)
 end
 
-(1..1000).each do |n|
-  multiples(n)
-end
+puts total
