@@ -7,7 +7,7 @@
 #Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
 
 class String
-  def toJadenCased
+  def jaden_cased
     split.map(&:capitalize).join(' ')
   end
 end
